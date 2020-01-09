@@ -16,7 +16,7 @@ body {
 	margin-bottom: 0;
 	margin-right: auto;
 	margin-left: auto;
-	border: 3px solid #931420;
+	border: 3px solid black;
 	background-color: #fffded;
 }
 html { 
@@ -24,7 +24,7 @@ html {
 }
 /* the styles for the header */
 header {
-	border-bottom: 3px solid #931420;
+	border-bottom: 3px solid black;
 	padding-top: 1.5em;
 	padding-bottom: 2em;
 	background-image: -webkit-linear-gradient(30deg,#f6bb73 0%, #f6bb73 30%, white 50%, #f6bb73 80%, #f6bb73 100%);
@@ -55,6 +55,7 @@ main {
 }
 main h1 { 
 	font-size: 150%;
+	text-align: center;
 	border-bottom: 3px solid #931420;
 	border-top: 3px solid #931420;
 	padding-top: .3em;
@@ -66,12 +67,13 @@ main h1 {
 main h2 { 
 	font-size: 150%;
 	color: #800000;
-	padding-top: .5em;
+	padding-top: 1em;
 	padding-bottom: .25em;
 }
 main h3 { 
 	font-size: 105%;
 	padding-bottom: .25em;
+	color: #800000;
 }
 main img { 
 	padding-bottom: 1em;
@@ -99,5 +101,5 @@ footer p {
 	padding-bottom: 1em;
 }
 footer {
-	background-color: #931420;
+	background-color: black;
 }

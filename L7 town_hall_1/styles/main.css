@@ -115,6 +115,7 @@ section blockquote {
 }
 section ul {
 	padding: .5em 0 .25em 1.25em;
+	list-style-type: disc;
 }
 section li {
 	padding-bottom: .35em;

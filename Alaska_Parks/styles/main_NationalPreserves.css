@@ -1,0 +1,133 @@
+ /* The reset selector*/
+ * { 
+	margin: 0;
+	padding: 0;
+}
+
+/******************************************************************************************************************** the styles for the Element ***************************** ***************************************************************************************/
+
+html { 
+	background-color: #6A94D4;
+}
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 100%;
+	width: 100%;
+	margin: 0 auto;
+	background-image: url(../images/background_NationalPreserves.jpg);
+	background-size: cover;
+	background-position: center center;
+	background-repeat: no-repeat;
+	
+}
+
+/******************************************************************************************************************** the styles for the Header ****************************** ***************************************************************************************/
+
+header {
+	font-family: 'Bellota Text', cursive;
+	background-color: #0F4DA8;
+	padding: 4% 0 4% 0;
+}
+header img {
+	padding: 0 0% 0 33%;
+	width: auto;
+	max-width: 33%;
+	height: auto;
+	max-height: 10%;
+}
+
+/******************************************************************************************************************** the styles for Nav ************************************* ***************************************************************************************/
+
+#nav_menu ul {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	position: relative;
+}
+#nav_menu ul li {
+	float: left;
+	display: block;
+	width: 25%;
+	text-align: center;
+}
+#nav_menu ul li a {
+	display: block;
+	padding: 4% 0%;
+	font-size: 135%;
+	text-decoration: none;
+	background-color:  #437DD4;
+	color: black;
+	font-family: 'Spartan', sans-serif;
+}
+#mobile_menu {
+	display: none;
+}
+
+/******************************************************************************************************************** the styles for the Section ***************************** ***************************************************************************************/
+
+section {
+	width: 40%;
+	font-size: 140%;
+	text-align: left;
+	word-wrap: break-word;
+	padding: 5% 0%;
+	margin: 0% auto 0% auto;
+}
+#imgleft {
+	position: absolute;
+	left: 1%;
+	top: 32.51%;
+	z-index: -1;
+	border: 1px solid black;
+}
+#imgright {
+	position: absolute;
+	right: 1%;
+	top: 32.51%;
+	z-index: -1;
+	border: 1px solid black;
+}
+section h2 {
+	font-size: 150%;
+	text-align: center;
+	padding-bottom: 3%;
+}
+
+/******************************************************************************************************************** the styles for the Gallery ***************************** ***************************************************************************************/
+.wrapper {
+	width: 90%;
+	margin: 0 auto;
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(200px, 1fr) );
+	grid-auto-rows: 100px;
+	grid-gap: 150px;
+}
+
+/******************************************************************************************************************** the styles for the Footer ****************************** ***************************************************************************************/
+
+footer {
+	text-align: center;
+	color: white;
+	background-color: black;
+}
+
+/******************************************************************************************************************** the styles for the Media Query ************************* ***************************************************************************************/
+
+@media only screen and (max-width: 767px) {
+	header { text-align: center; }
+	section { float: none; }
+	section { width: 97.952%; }
+	#imgright { max-width: 30%;}
+	#imgleft { max-width: 30%;}
+	
+}
+@media only screen and (max-width: 479px) {
+	* {font-size: 90%;}
+}
+@media only screen and (max-width: 1366px) {
+	#imgright { display: none; }
+	#imgleft { display: none; }
+	#nav_menu { display: none; }
+	#mobile_menu { display: block; }
+	.slicknav { background-color: black !important;  } 
+}

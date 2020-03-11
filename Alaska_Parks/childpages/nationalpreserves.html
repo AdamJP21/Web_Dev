@@ -1,0 +1,68 @@
+<!DOCTYPE html><!-- makes the document an html doc -->
+<html lang="en"> <!-- language to english-->
+
+<head>
+     <meta charset="utf-8"><!--base character set-->
+     <meta name="viewport" content="width=device-width, initial-scale=1"> <!--mobile stuff-->
+
+     <title>Alaska National Parks</title> <!--tab name-->
+
+     <link rel="stylesheet" href="../styles/main_NationalPreserves.css">
+     <link rel="stylesheet" href="../styles/normalize.css">
+     <link rel="stylesheet" href="../styles/slicknav.css">
+     <link href="https://fonts.googleapis.com/css?family=Bellota+Text|Spartan&display=swap" rel="stylesheet">
+
+     <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+	<script src="../js/jquery.slicknav.min.js"></script>
+	<script>
+		$(document).ready(function(){
+			$('#nav_menu').slicknav({prependTo:"#mobile_menu"});
+		});
+     </script>
+     
+</head>
+
+<body>
+     <header>
+          <img src="../images/header.png" alt="Alaska National Parks"><!-- big text at the top of pages-->
+     </header>
+          <nav id="mobile_menu"></nav>
+          <nav id="nav_menu"><!-- menu to navigate the websites-->
+               <ul>
+                    <li><a href="../index.html"> Home </a></li>
+                    <li><a href="historicalsites.html"> Historic Sites </a></li>
+                    <li><a href="nationalpreserves.html"> National Preserves </a></li>
+                    <li><a href="photogallery.html"> Photo Gallery </a></li>
+               </ul>
+          </nav>
+
+     <section>
+          <h2> Definition</h2>
+
+          <p>A national preserve is an area having characteristics of a national park. These areas have Congress' approval for hunting, trapping, and oil/gas exploration and extraction. </p>
+
+          <br>
+          <h2>Bering Land Bridge National Preserve</h2>
+          
+          <br>
+          <p>Bering Land Bridge National Preserve is a remnant of what once was the Bering Land Bridge. Most archeologists believe that it was across the Bering Land Bridge that humans first traveled from Asia to populate the Americas. During the Last Ice Age, about 12,000 years ago, the water level of the oceans were lower, exposing land that today is under the Bering and Chukchi Seas. This exposed area provided a migration route for people, animals, and plant life.</p>
+    
+          <br>
+          <h2>Noatak National Preserve</h2>
+
+          <br>
+          <p>Noatak National Preserve is located in the northwestern part of Alaska and was established to protect the Noatak River Basin. This basin is thought to be the last remaining complete river system in the United States that has not been altered by human activities. The basin was proclaimed a United States National Monument in 1978 and a National Preserve in 1980.</p>
+
+          <br>
+          <h2>Yukon-Charley Rivers National Preserve </h2>
+
+          <br>
+          <p>Yukon-Charley Rivers National Preserve was proclaimed as a United States National Monument on December 1, 1978, and was redesignated a National Preserve on December 2, 1980. The Charley River has been named a National Wild River.</p>
+
+     </section>
+     
+     <footer>
+          <p> &copy; 2020 Alaska Parks, Anchorage, AK 99513 <i>(907) 459-3730</i> </p>
+     </footer>
+</body>
+</html>

@@ -1,0 +1,61 @@
+<!DOCTYPE html><!-- makes the document an html doc -->
+<html lang="en"> <!-- language to english-->
+<head>
+     <meta charset="utf-8"><!--base character set-->
+     <meta name="viewport" content="width=device-width, initial-scale=1"> <!--mobile stuff-->
+
+     <title>Alaska National Parks</title> <!--tab name-->
+
+     <link rel="stylesheet" href="../styles/main_PhotoGallery.css">
+     <link rel="stylesheet" href="../styles/normalize.css">
+     <link rel="stylesheet" href="../styles/slicknav.css">
+     <link href="https://fonts.googleapis.com/css?family=Bellota+Text|Spartan&display=swap" rel="stylesheet">
+
+     <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+	<script src="../js/jquery.slicknav.min.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function(){
+			$('#nav_menu').slicknav({prependTo:"#mobile_menu"});
+		});	
+     </script>
+     
+</head>
+
+<body>
+     <header>
+          <img src="../images/header.png" alt="Alaska National Parks"><!-- big text at the top of pages-->
+     </header>
+          <nav id="mobile_menu"></nav>
+          <nav id="nav_menu"><!-- menu to navigate the websites-->
+               <ul>
+                    <li><a href="../index.html"> Home </a></li>
+                    <li><a href="historicalsites.html"> Historic Sites </a></li>
+                    <li><a href="nationalpreserves.html"> National Preserves </a></li>
+                    <li><a href="photogallery.html"> Photo Gallery </a></li>
+               </ul>
+          </nav>
+
+
+    <section>
+        
+        <p>Welcome to the Alaska National Parks Photo Gallery. All of the images below have been submitted by visitors to our parks. After your visit to our parks, send us your favorite photos so we can add them to our gallery.</p>
+
+    </section>
+
+    <div class="wrapper">
+    <div class="item"><img src="../images/Gallery1.jpg"></div>
+    <div class="item"><img src="../images/Gallery2.jpg"></div>
+    <div class="item"><img src="../images/Gallery3.jpg"></div>
+    <div class="item"><img src="../images/Gallery4.jpg"></div>
+    <div class="item"><img src="../images/Gallery5.jpg"></div>
+    <div class="item"><img src="../images/Gallery6.jpg"></div>
+    <div class="item"><img src="../images/Gallery7.jpg"></div>
+    <div class="item"><img src="../images/Gallery8.jpg"></div>
+    <div class="item"><img src="../images/Gallery9.jpg"></div>
+    </div>
+
+    <footer>
+     <p> &copy; 2020 Alaska Parks, Anchorage, AK 99513 <i>(907) 459-3730</i> </p>
+</footer>
+    </body>
+    </html>

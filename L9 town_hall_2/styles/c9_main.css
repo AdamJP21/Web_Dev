@@ -49,9 +49,8 @@ header img {
 /* the styles for the navigation menu */
 #nav_menu ul {
 	display: flex;
-	flex-direction: row ;
 	flex-basis: 100%;
-	justify-content: space-evenly;
+	justify-content: space-between;
 	list-style-type: none;
 	margin: 0;
 	padding: 0;
@@ -93,7 +92,7 @@ main {
 /* the styles for the section */
 section {
 	flex-basis: 70%;
-	order: 0;
+	order: 2;
 	padding: 0 2.5% 20px 2.5%;       /* 20 / 800 x 100 */
 
 }
@@ -146,7 +145,7 @@ article img {
 /* the styles for the aside */
 aside {
 	flex-basis: 30%;                     /* 215 / 800 x 100 */
-	order: -1;
+	order: 1;
 	padding: 0 0 20px 2.5%;             /* 20 / 800 x 100 */
 	
 }
@@ -205,9 +204,7 @@ footer p {
 		-webkit-column-count: 2;
 		column-count: 2;
 	}
-	div {
-		column-count: 2;
-	}
+
 	#nav_menu {
 		display: none;
 	}

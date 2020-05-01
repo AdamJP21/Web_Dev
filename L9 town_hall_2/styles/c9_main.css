@@ -192,7 +192,7 @@ footer p {
 		flex-direction: column;
 	 }
 	section {
-		flex-basis: 95%;                     /
+		flex-basis: 95%;    
 		order: 1;
 	}
 	aside {      

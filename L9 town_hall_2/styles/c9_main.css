@@ -205,6 +205,9 @@ footer p {
 		-webkit-column-count: 2;
 		column-count: 2;
 	}
+	div {
+		column-count: 2;
+	}
 	#nav_menu {
 		display: none;
 	}

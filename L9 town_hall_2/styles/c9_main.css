@@ -198,7 +198,6 @@ footer p {
 	aside {      
 		flex-basis: 95%;                   
 		order: 2;
-		padding-right: 2.5%;
 	}
 	article img { max-width: 30%; }
 	#speakers {

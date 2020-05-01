@@ -189,17 +189,16 @@ footer p {
 @media only screen and (max-width: 767px) {
 	header img { float: none; }
 	header { text-align: center; }
-	main { 
-		display: flex;
+	main {
 		flex-direction: column;
 	 }
 	section {
 		flex-basis: 95%;                     /
-		order: -1;
+		order: 1;
 	}
 	aside {      
 		flex-basis: 95%;                   
-		order: 0;
+		order: 2;
 		padding-right: 2.5%;
 	}
 	article img { max-width: 30%; }
